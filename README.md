@@ -1,0 +1,2 @@
+# PtCloudProc
+he algorithm decomposes the point cloud into a concise, hybrid structure of inherent shapes and a set of remaining points. Each detected shape serves as a proxy for a set of corresponding points. Our method is based on random sampling and detects planes, spheres, cylinders, cones and tori. For models with surfaces composed of these basic shapes only, for example, CAD models, we automatically obtain a representation solely consisting of shape proxies. 
