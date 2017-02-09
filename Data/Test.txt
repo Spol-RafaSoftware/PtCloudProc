@@ -1,0 +1,41 @@
+
+The cubic function was evaluated for 11 values of x
+
+    y = (((((a * x) + b) * x) + c) * x) + d
+
+    a = 0.5
+    b = -0.25
+    c = 0.5
+    d = 0.25
+
+The corresponding B-spline function was evaluated at the end points of each of its sections
+These values were compared with the relevant weighted sums of the cubic function
+
+    y = (y0 + 4.0 * y1 + y2) / 6.0
+    y = (y1 + 4.0 * y2 + y3) / 6.0
+
+The errors between the weighted sums and the B-spline function were evaluated
+
+    x = -1       y = -1         weighted sum = -0.927667  B-spline = -0.927667  error = 0
+    x = -0.8     y = -0.566     weighted sum = -0.585333  B-spline = -0.585333  error = 0
+    x = -0.8     y = -0.566     weighted sum = -0.585333  B-spline = -0.585333  error = 0
+    x = -0.6     y = -0.248     weighted sum = -0.263333  B-spline = -0.263333  error = 0
+    x = -0.6     y = -0.248     weighted sum = -0.263333  B-spline = -0.263333  error = 0
+    x = -0.4     y = -0.022     weighted sum = -0.0333333 B-spline = -0.0333333 error = 0
+    x = -0.4     y = -0.022     weighted sum = -0.0333333 B-spline = -0.0333333 error = 0
+    x = -0.2     y = 0.136      weighted sum = 0.128667   B-spline = 0.128667   error = 0
+    x = -0.2     y = 0.136      weighted sum = 0.128667   B-spline = 0.128667   error = 0
+    x = 0        y = 0.25       weighted sum = 0.246667   B-spline = 0.246667   error = 0
+    x = 0        y = 0.25       weighted sum = 0.246667   B-spline = 0.246667   error = 0
+    x = 0.2      y = 0.344      weighted sum = 0.344667   B-spline = 0.344667   error = 0
+    x = 0.2      y = 0.344      weighted sum = 0.344667   B-spline = 0.344667   error = 0
+    x = 0.4      y = 0.442      weighted sum = 0.446667   B-spline = 0.446667   error = 0
+    x = 0.4      y = 0.442      weighted sum = 0.446667   B-spline = 0.446667   error = 0
+    x = 0.6      y = 0.568      weighted sum = 0.576667   B-spline = 0.576667   error = 0
+    x = 0.6      y = 0.568      weighted sum = 0.576667   B-spline = 0.576667   error = 0
+    x = 0.8      y = 0.746      weighted sum = 0.758667   B-spline = 0.758667   error = 0
+    x = 0.8      y = 0.746      weighted sum = 0.758667   B-spline = 0.758667   error = 0
+    x = 1        y = 1          weighted sum = 0.957667   B-spline = 0.957667   error = 0
+
+The maximum absolute error was 0
+
